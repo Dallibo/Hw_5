@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(255, 243, 220);
+  }
+
+  h1{
+    text-align: center;
+  }
+  .conteiner, .conteiner2{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 45px auto;
+    position: relative;
+    display: inline-block;
+  }
+  .conteiner img{
+    transform-origin: 50% 200px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+  @keyframes a1{
+    from{
+      transform: rotate(-40deg) translateY(400px)
+    }
+    to{
+      transform: rotate(-40deg) translateY(50px);
+    }
+  }
+  @keyframes a2{
+    from{
+      transform: rotate(-20deg) translateY(400px)
+    }
+    to{
+      transform: rotate(-20deg) translateY(0) translateX(30px);
+    }
+  }
+  @keyframes a3{
+    from{
+      transform: rotate(20deg) translateY(400px)
+    }
+    to{
+      transform: rotate(20deg) translateY(0) translateX(-30px);
+    }
+  }
+  @keyframes a4{
+    from{
+      transform: rotate(40deg) translateY(400px)
+    }
+    to{
+      transform: rotate(40deg) translateY(50px);
+    }
+  }
+  @keyframes a5{
+    from{
+      transform: rotate(0deg) translateY(150px)
+    }
+    to{
+      transform: rotate(0deg) translateY(-50px);
+    }
+  }
+  .conteiner img:nth-child(1) {
+    animation: a1 2s linear 1 forwards;
+    transform: rotate(-20deg) translateY(400px)
+  }
+  .conteiner img:nth-child(2) {
+    animation: a2 2s linear 0.5s 1 forwards;
+    transform: rotate(-15deg) translateY(400px)
+  }
+  .conteiner img:nth-child(3) {
+    animation: a3 2s linear 1s 1 forwards;
+    transform: rotate(5deg) translateY(400px)
+  }
+  .conteiner img:nth-child(4) {
+    animation: a4 2s linear 1.5s 1 forwards;
+    transform: rotate(30deg) translateY(400px)
+  }
+  .conteiner2 img{
+    transform-origin: 50% 200px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: a5 2s linear 2s 1 forwards;
+    transform: rotate(0deg) translateY(150px)
+
+  }
+

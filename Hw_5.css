@@ -1,0 +1,24 @@
+@keyframes Animation{
+    from{
+      transform: rotate(0deg) translateX(0px);
+    }
+    to{
+      transform: rotate(0deg) translateX(300px);
+    }
+  }
+      P{
+          background-color: orange; 
+          width: 5%;
+          margin: 0;
+          padding: 20px 15px;
+          animation: Animation 3s linear 0s infinite normal forwards;
+          
+      }
+      div{ 
+         width: 350px;
+          border: 3px solid orange;
+          position:relative;
+          margin-left: 0px;
+          margin-right:auto;
+
+           }
